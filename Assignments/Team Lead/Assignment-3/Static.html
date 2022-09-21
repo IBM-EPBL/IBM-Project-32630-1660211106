@@ -1,0 +1,9 @@
+< html >
+< head >
+< script type = " text / javascript " src = " ( (url_for ( ' static " , filename = " helloflask.js " ) } } " >
+< / script>
+< / head >
+< body >
+< input type = " button " onclick = " sayhello( ) " value = " say Hello " / >
+< / body >
+< / html >
