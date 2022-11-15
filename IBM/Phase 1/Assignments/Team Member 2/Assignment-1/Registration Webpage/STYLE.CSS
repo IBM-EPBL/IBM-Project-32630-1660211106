@@ -1,0 +1,60 @@
+#header
+{
+	background:orange;
+	width:100%;
+	height:50px;
+	color:white;
+	font-size:36px;
+}
+.form-style{   
+	font-family: sans;
+	width: 600px;
+	padding: 30px;
+	background:Pink;
+	margin: 100px auto;
+}
+
+.form-style h2{ 
+	background:purple;
+	font-family: sans;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+
+.input-group{
+	margin: 10px 0px 10px 0px;
+ }
+
+.input-group input{ 
+	height:30px;
+	width: 95%;
+	padding: 5px;
+	font-size:16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+
+.input-group select{ 
+    width: 95%;
+    padding: 5px;
+    border: 1px violet;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+	
+.btn{  
+    padding:10px;
+	font-size:15px;
+	color:white;
+	background: BLUE;
+	border-radius: 5px;
+	border: none;
+   }
+}

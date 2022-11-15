@@ -1,0 +1,39 @@
+Body{
+    Background-color: rgb(218, 29, 107);
+    Font-family:’Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+    Border-color: black;
+    Margin-left: 300px;
+    Max-width: 50%;
+    
+  
+}
+ Table{
+     Border-color: black;
+     Max-width: 10vh;
+
+     
+ }
+ Tr{
+     Max-width: 100vh;
+     Background-color: rgb(145, 24, 139);
+ }
+ Td{
+     Background-color: rgb(201, 83, 191);
+
+ }
+
+
+
+Body h4{
+    Margin-left: 350px;
+    
+}
+Body h5{
+    Margin-left:20px ;
+    Background-color: rgb(204, 15, 103);
+    Margin-right: 450px;
+}
+Ul{
+    Margin-top: 50px;
+    
+}

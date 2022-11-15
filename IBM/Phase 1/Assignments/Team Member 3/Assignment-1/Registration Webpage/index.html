@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script src="valid.js"></script>
+</head>
+<body bgcolor="Pink">
+<div id="header" align="center">
+Exam Registration form
+</div>
+<div class="form-style">
+<h2> *All Fields are mandatory*</h2>
+<form name="form1" method="post" action="#" onsubmit="return fncValidate();" autocomplete="off">
+<p>Student details</p>
+<table width="600" border="0">
+<tr>
+<td width="124">&nbsp;First name:</td>
+<td width="180">
+<div class="input-group">
+<input type="text" name="first_name" size="20">
+</div>
+</td>
+</tr>
+<tr>
+<td width="124">&nbsp;Last name:</td>
+<td width="180">
+<div class="input-group">
+<input type="text" name="last_name" size="20">
+</div>
+</td>
+</tr>
+<tr>
+<td>&nbsp;DOB:
+</td>
+<td>
+<div class="input-group">
+<input id="dob" type="date" name="DOB" size="20">
+</div>
+</td>
+</tr>
+<tr>
+<td>
+&nbsp;Gender:
+</td>
+<td>
+<span id="gen">
+<input type="radio" name="gender" value="male" id="male"> Male
+<input type="radio" name="gender" value="female" id="female"> Female
+</span>
+</td>
+</tr>
+<tr>
+<td>&nbsp;Register No:</td>
+<td>
+<div class="input-group">
+<input type="text" name="regno">
+</div>
+</td>
+</tr>
+<tr>
+<td>
+&nbsp;Course:
+</td>
+<td>
+<div class="input-group">
+<select id="course">
+<option value="">Choose a course</option>
+<option value="IT">B.Tech. - Information Technology</option>
+<option value="CSE">B.E. - Computer Science and Engineering</option>
+<option value="CE">B.E. - Civil Engineering</option>
+<option value="EEE">B.E. - Electrical and Electronics Engineering</option>
+<option value="ECE">B.E. - Electronics and Communication Engineering</option>
+<option value="ME">B.E. - Mechanical Engineering</option>
+</select>
+</div>
+</td>
+</tr>
+<tr>
+<td>&nbsp;Moblie No:</td>
+<td>
+<div class="input-group">
+<input type="text" name="phone">
+</div>
+</td>
+</tr>
+<tr>
+<td>&nbsp;Email:</td>
+<td>
+<div class="input-group">
+<input type="text" name="email">
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input type="submit" name="sub,it" value="Submit" class="btn">&nbsp&nbsp
+<input type="reset" name="reset" value="Reset" class="btn">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
