@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+  <div class="login-form-container active">
+    <form action="{{ url_for('register') }}" method="post" >
+      <h3>Registration form</h3>
+      <input
+        type="text"
+        name="username"
+        placeholder="enter your Username Name"
+        id="username"
+        class="box"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="enter your email"
+        id="email"
+        class="box"
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="enter your password"
+        id="password"
+        class="box"
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter confirm password"
+        id="password"
+        class="box"
+      />
+      <div class="remember">
+        <input type="checkbox" name="" id="remember-me" />
+        <label for="remember-me">remember me</label>
+      </div>
+      <input type="submit" value="register now" class="btn" />
+      <!-- <p>forget password? <a href="#">click here</a></p> -->
+      
+    </form>
+  </div>
+{% endblock %}
